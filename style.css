@@ -121,8 +121,8 @@ button{cursor: pointer;}
   display: flex;
   gap: 10px;
   font-weight: 700;
-  color: #F17228;
-  background-color: #F172281A;
+  color:#757575;
+  background-color: #ffffff1a;
   justify-content: center;
   align-items: center;
   border: none;
