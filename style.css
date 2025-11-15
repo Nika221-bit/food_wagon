@@ -1,0 +1,353 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
+}
+.Header1{  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  font-family: sans-serif;
+  padding-left:220px ;
+  padding-top: 16px; 
+  padding-right: 220px;
+  padding-bottom: 16px;
+}
+
+
+.header_ul{list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 12px;}
+
+.login {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.header_li{font-weight:700;text-decoration: none;}
+.Login {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+}
+
+.Login img {
+  width: 16px;
+  height: 18px;
+}
+
+.btn_2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #FF8A00;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(255, 174, 0, 0.3); 
+  border: none;
+  height: 46px;
+  width: 118px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn_2:hover {
+  box-shadow: 0px 6px 14px rgba(255, 174, 0, 0.5);
+  transform: translateY(-2px);
+}
+button{cursor: pointer;}
+
+.Header2{height: auto;
+          width: 100%;
+          background-color:rgb(255, 204, 0);
+          display: flex;
+          justify-content: center ;}
+
+.hero-content h1{font-weight: 700;
+                 font-size: 88px;
+                 height: 88px;
+                 color: white;}
+
+.hero-content p{font-weight: 400;
+                font-size: 22px;
+                color: rgb(0, 0, 0);}
+
+.order-options{border-top-left-radius: 8px;
+               border-top-right-radius: 8px;
+                width: 856px;
+                height: 86px;
+                background-color: white;
+                 display: flex;
+                 gap: 8px;
+                border-bottom:1px solid rgb(218, 218, 218); }
+
+.option-active{height: 38px;
+  width: 148px;
+  display: flex;
+  gap: 10px;
+  font-weight: 700;
+  color: #F17228;
+  background-color: #F172281A;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  position: relative;
+  
+  position: relative;
+  top: 10px;
+  left: 24px;
+  transition: all 0.3s ease;
+   
+  }
+  .option-active:hover {
+  box-shadow: 0px 6px 14px rgba(255, 174, 0, 0.5);
+  transform: translateY(-2px);
+}
+.option-active img{width: 23px;height: 18px;}
+
+.option{height: 38px;
+  width: 148px;
+  display: flex;
+  gap: 10px;
+  font-weight: 700;
+  color: #F17228;
+  background-color: #F172281A;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  position: relative;
+  border-radius: 8px;
+  position: relative;
+  top: 10px;
+  left: 24px;
+  transition: all 0.3s ease;
+
+  
+  }
+    .option:hover {
+  box-shadow: 0px 6px 14px rgba(255, 174, 0, 0.5);
+  transform: translateY(-2px);
+}
+
+.search-bar{background-color: white;
+            height: 108px;
+            width: 856px;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+}
+
+.search-bar input{width: 593px;
+            height: 49px;
+             border: none; 
+            background-color: #F5F5F5;}
+            
+.search-bar button{background-color: #F65900; color: white;width: 199px;height: 60px;border: none;border-radius: 8px;}
+
+.hero-image{position: relative;bottom: -5px;}
+
+ @media (max-width: 1426px) and (min-width: 972px) {
+  .Header1 {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 40px;
+  }
+
+  .header_ul {
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+  }
+
+  .Login {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+  }
+
+  .btn_2 {
+    width: 140px;
+    height: 46px;
+  }
+
+  .Header2 {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 64px;
+    height: auto;
+    text-align: center;
+  }
+
+  .hero-content p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .order-options {
+    width: 100%;
+    max-width: 700px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 12px;
+    height: auto;
+  }
+
+  .option,
+  .option-active {
+    width: 45%;
+    margin: 6px 0;
+    left: 0;
+    top: 0;
+  }
+
+  .search-bar {
+    flex-direction: column;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    padding: 16px;
+  }
+
+  .search-bar input {
+    width: 100%;
+    max-width: 500px;
+    height: 49px;
+  }
+
+  .search-bar button {
+    width: 100%;
+    max-width: 200px;
+    height: 50px;
+  }
+
+  .hero-image {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    object-fit: cover;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 961px) {
+  .Header1 {
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .header_ul {
+    flex-wrap: wrap;
+    gap: 6px;
+    font-size: 14px;
+  }
+
+  .Login {
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .btn_2 {
+    width: auto;
+    height: 40px;
+    padding: 0 12px;
+    font-size: 14px;
+  }
+
+  .Header2 {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 32px;
+    height: auto;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+  .order-options {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .option,
+  .option-active {
+    width: 90%;
+    left: 0;
+    top: 0;
+    margin: 6px 0;
+  }
+
+  .search-bar {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 12px;
+    gap: 10px;
+  }
+
+  .search-bar input {
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    padding: 6px;
+  }
+
+  .search-bar button {
+    width: 100%;
+    height: 44px;
+    font-size: 16px;
+  }
+
+  .hero-image {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 24px;
+  }
+
+  .hero-content p {
+    font-size: 14px;
+  }
+
+  .btn_2 {
+    font-size: 12px;
+    height: 36px;
+  }
+}
